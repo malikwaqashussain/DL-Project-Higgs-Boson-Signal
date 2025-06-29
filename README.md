@@ -1,10 +1,10 @@
-# 🚀 Higgs Boson Signal Classification — Deep Learning Project
+# Higgs Boson Signal Classification — Deep Learning Project
 
 This project applies deep learning techniques to classify Higgs Boson particle collision events as either **signal** (actual Higgs boson) or **background noise** using tabular physics data. The dataset is based on the Kaggle **Higgs Boson Machine Learning Challenge**.
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 - **Source**: [Kaggle Higgs Boson Challenge](https://www.kaggle.com/competitions/higgs-boson)
 - **Files Used**:
@@ -15,7 +15,7 @@ This project applies deep learning techniques to classify Higgs Boson particle c
 
 ---
 
-## 🎯 Objective
+## Objective
 
 Design, train, and evaluate a deep learning model to perform **binary classification**. Tasks include:
 
@@ -27,7 +27,7 @@ Design, train, and evaluate a deep learning model to perform **binary classifica
 
 ---
 
-## 🧪 Model Workflow
+## Model Workflow
 
 ### 1. Data Preparation
 
@@ -78,7 +78,7 @@ A tree-based model using **XGBoost** was implemented for benchmarking:
 
 ---
 
-## 🔍 Reflections
+## Reflections
 
 - **Model Depth**: Deeper architectures with regularization improved learning without overfitting.
 - **Overfitting Mitigation**: Dropout + EarlyStopping + BatchNorm helped stabilize performance.
@@ -90,7 +90,7 @@ A tree-based model using **XGBoost** was implemented for benchmarking:
 
 ---
 
-## 📎 Files Included
+## Files Included
 
 - `higgs_train_10k.csv`  
 - `higgs_test_5k.csv`  
@@ -99,7 +99,7 @@ A tree-based model using **XGBoost** was implemented for benchmarking:
 
 ---
 
-## ✅ Requirements
+## Requirements
 
 - Python 3.7+
 - TensorFlow / Keras
@@ -110,7 +110,7 @@ A tree-based model using **XGBoost** was implemented for benchmarking:
 
 ---
 
-## 📌 How to Run
+## How to Run
 
 ```bash
 # Install dependencies
